@@ -37,21 +37,6 @@ h2 {
     left: 22vw;
 }
 
-.love {
-    display: flex;
-    font-size: 25px;
-    width: 900px;
-    font-family: 'Trebuchet MS', sans-serif;
-    z-index: 1;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    border: 1px solid transparent;
-    box-sizing: border-box;
-    position: absolute;
-    top: 85%;
-    left: 22vw;
-}
 
 p{
     display: flex;
@@ -68,6 +53,23 @@ p{
     top: 66%;
     left: 22vw;
 }
+
+.love {
+    display: flex;
+    font-size: 25px;
+    width: 900px;
+    font-family: 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    position: absolute;
+    top: 85%;
+    left: 22vw;
+}
+
 
 .balloon1 .balloon {
     background-color: yellow;
