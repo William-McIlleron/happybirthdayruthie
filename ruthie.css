@@ -108,7 +108,9 @@ p{
     position: absolute;
     top: 60vh;
     left: calc(75vw - 15px);
-    animation: float 4s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1s;
+    
 }
 .balloon2 .string {
     background-color: black;
@@ -118,7 +120,9 @@ p{
     position: absolute;
     top: 70vh;
     left:76vw;
-    animation: float 4s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 1s;
+    
 }
 
 .balloon3 .balloon {
@@ -133,8 +137,9 @@ p{
     position: absolute;
     top: 15vh;
     left: calc(26vw - 15px);
-    animation: float 5s ease-in-out infinite;
-}
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+    
 
 .balloon3 .string {
     background-color: black;
@@ -144,7 +149,9 @@ p{
     position: absolute;
     top: 25vh;
     left: 27vw;
-    animation: float 5s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 2s;
+    
 }
 
 .balloon4 .balloon {
@@ -159,7 +166,9 @@ p{
     position: absolute;
     top: 55vh;
     left: calc(44vw - 15px);
-    animation: float 6s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 3s;
+    
 }
 .balloon4 .string {
     background-color: black;
@@ -169,7 +178,8 @@ p{
     position: absolute;
     top: 65vh;
     left: 45vw;
-    animation: float 6s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 3s;
 }
 
 .balloon5 .balloon {
@@ -184,7 +194,8 @@ p{
     position: absolute;
     top: 10vh;
     left: calc(59vw - 15px);
-    animation: float 7s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 4s;
 }
 .balloon5 .string {
     background-color: black;
@@ -194,7 +205,8 @@ p{
     position: absolute;
     top: 20vh;
     left: 60vw;
-    animation: float 7s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 4s;
 }
 
 .balloon6 .balloon {
@@ -209,7 +221,8 @@ p{
     position: absolute;
     top: 10vh;
     left: calc(87vw - 15px);
-    animation: float 8s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 5s;
 }
 .balloon6 .string {
     background-color: black;
@@ -219,7 +232,8 @@ p{
     position: absolute;
     top: 20vh;
     left:88vw;
-    animation: float 8s ease-in-out infinite;
+    animation: float 3s ease-in-out infinite;
+    animation-delay: 5s;
 }
 
 @keyframes float {
