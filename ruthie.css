@@ -236,6 +236,6 @@ p{
         padding: 10px;
     }
     * {
-        overflow: visible;
+        overflow: auto;
     }
 }
