@@ -139,7 +139,7 @@ p{
     left: calc(26vw - 15px);
     animation: float 3s ease-in-out infinite;
     animation-delay: 2s;
-    
+}
 
 .balloon3 .string {
     background-color: black;
