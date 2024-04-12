@@ -1,0 +1,229 @@
+* {
+    overflow: hidden;
+}
+body {
+    background-color: rgb(124, 189, 246);
+}
+h1 {
+    display: flex;
+    font-size: 80px;
+    width: 1500px;
+    font-family: cursive, sans-serif;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    animation: bounce 0.5s ease-out 5;
+}
+
+h2 {
+    display: flex;
+    font-size: 35px;
+    width: 900px;
+    font-family: 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    position: absolute;
+    top: 51%;
+    left: 22vw;
+}
+
+p{
+    display: flex;
+    font-size: 25px;
+    width: 900px;
+    font-family: 'Trebuchet MS', sans-serif;
+    z-index: 1;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    position: absolute;
+    top: 66%;
+    left: 22vw;
+}
+
+.balloon1 .balloon {
+    background-color: yellow;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    width: 4vw;
+    height: 10vh;
+    position: absolute;
+    top: 40vh;
+    left: calc(4vw - 15px);
+    animation: float 3s ease-in-out infinite;
+}
+.balloon1 .string {
+    background-color: black;
+    box-sizing: border-box;
+    height: 15vh;
+    width: 2px;
+    position: absolute;
+    top: 50vh;
+    left: 5vw;
+    animation: float 3s ease-in-out infinite;
+}
+
+.balloon2 .balloon {
+    background-color: magenta;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    width: 4vw;
+    height: 10vh;
+    position: absolute;
+    top: 60vh;
+    left: calc(75vw - 15px);
+    animation: float 4s ease-in-out infinite;
+}
+.balloon2 .string {
+    background-color: black;
+    box-sizing: border-box;
+    height: 15vh;
+    width: 2px;
+    position: absolute;
+    top: 70vh;
+    left:76vw;
+    animation: float 4s ease-in-out infinite;
+}
+
+.balloon3 .balloon {
+    background-color: blueviolet;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    width: 4vw;
+    height: 10vh;
+    position: absolute;
+    top: 15vh;
+    left: calc(26vw - 15px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.balloon3 .string {
+    background-color: black;
+    box-sizing: border-box;
+    height: 15vh;
+    width: 2px;
+    position: absolute;
+    top: 25vh;
+    left: 27vw;
+    animation: float 5s ease-in-out infinite;
+}
+
+.balloon4 .balloon {
+    background-color: rgb(20, 213, 130);
+    border: 1px solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    width: 4vw;
+    height: 10vh;
+    position: absolute;
+    top: 55vh;
+    left: calc(44vw - 15px);
+    animation: float 6s ease-in-out infinite;
+}
+.balloon4 .string {
+    background-color: black;
+    box-sizing: border-box;
+    height: 15vh;
+    width: 2px;
+    position: absolute;
+    top: 65vh;
+    left: 45vw;
+    animation: float 6s ease-in-out infinite;
+}
+
+.balloon5 .balloon {
+    background-color: greenyellow;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    width: 4vw;
+    height: 10vh;
+    position: absolute;
+    top: 10vh;
+    left: calc(59vw - 15px);
+    animation: float 7s ease-in-out infinite;
+}
+.balloon5 .string {
+    background-color: black;
+    box-sizing: border-box;
+    height: 15vh;
+    width: 2px;
+    position: absolute;
+    top: 20vh;
+    left: 60vw;
+    animation: float 7s ease-in-out infinite;
+}
+
+.balloon6 .balloon {
+    background-color: #843757;
+    border: 1px solid transparent;
+    border-bottom-left-radius: 70%;
+    border-bottom-right-radius: 70%;
+    border-top-left-radius: 60%;
+    border-top-right-radius: 60%;
+    width: 4vw;
+    height: 10vh;
+    position: absolute;
+    top: 10vh;
+    left: calc(87vw - 15px);
+    animation: float 8s ease-in-out infinite;
+}
+.balloon6 .string {
+    background-color: black;
+    box-sizing: border-box;
+    height: 15vh;
+    width: 2px;
+    position: absolute;
+    top: 20vh;
+    left:88vw;
+    animation: float 8s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+
+    50% {
+        transform: translateY(50px);
+    
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
