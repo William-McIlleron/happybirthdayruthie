@@ -3,6 +3,7 @@
 }
 body {
     background-color: rgb(124, 189, 246);
+    width: 100vw;
 }
 h1 {
     display: flex;
