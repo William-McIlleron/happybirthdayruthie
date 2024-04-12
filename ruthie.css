@@ -235,4 +235,7 @@ p{
         font-size: 14px; /* Adjust font size for better readability on mobile */
         padding: 10px;
     }
+    * {
+        overflow: visible;
+    }
 }
